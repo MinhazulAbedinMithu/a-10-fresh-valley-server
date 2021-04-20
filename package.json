@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
@@ -16,5 +17,16 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.6"
-  }
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porgramming-Hero-web-course/full-stack-server-MinhazulAbedinMithu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Porgramming-Hero-web-course/full-stack-server-MinhazulAbedinMithu/issues"
+  },
+  "homepage": "https://github.com/Porgramming-Hero-web-course/full-stack-server-MinhazulAbedinMithu#readme"
 }
